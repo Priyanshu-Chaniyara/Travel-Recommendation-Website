@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Travel Recommender</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#beach">Beaches</a></li>
+        <li><a href="#temples">Temples</a></li>
+        <li><a href="#countries">Countries</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Travel Recommender</h2>
+      <p>Discover your next ideal destination tailored to your interests. From serene beaches to sacred temples, explore the best places around the world.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of travel enthusiasts committed to helping you explore the most beautiful and inspiring places worldwide. Our recommendations are carefully curated to match your interests and preferences.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" required />
+        <label for="message">Your Message:</label>
+        <textarea id="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+
+    <section id="beach">
+      <h2>Beach Recommendations</h2>
+      <div class="destination-grid">
+        <div>
+          <img src="Maldives Beach.jpg" alt="Maldives Beach" />
+          <p>Maldives – Crystal-clear waters and luxury retreats.</p>
+        </div>
+        <div>
+          <img src="Bora Bora Beach.jpg" alt="Bora Bora Beach" />
+          <p>Bora Bora – A romantic paradise with vibrant marine life.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="temples">
+      <h2>Temple Recommendations</h2>
+      <div class="destination-grid">
+        <div>
+          <img src="Angkor Wat.jpg" alt="Angkor Wat" />
+          <p>Angkor Wat, Cambodia – A magnificent ancient temple complex.</p>
+        </div>
+        <div>
+          <img src="Japanese Temple.jpg" alt="Japanese Temple" />
+          <p>Fushimi Inari, Japan – Famous for its thousands of torii gates.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="countries">
+      <h2>Country-Based Recommendations</h2>
+      <div class="destination-grid">
+        <div>
+          <img src="India.jpg" alt="India" />
+          <p>India – A blend of vibrant culture, history, and diversity.</p>
+        </div>
+        <div>
+          <img src="Switzerland.jpg" alt="Switzerland" />
+          <p>Switzerland – Scenic landscapes and charming alpine towns.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Travel Recommender. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
